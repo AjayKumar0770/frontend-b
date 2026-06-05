@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { io, Socket } from 'socket.io-client';
-import { Send, Wifi, WifiOff, MessageSquare, Clock, User, ArrowUpRight } from 'lucide-react';
+import { Send, Wifi, WifiOff, MessageSquare, Clock, ArrowUpRight } from 'lucide-react';
 
 interface Message {
   text: string;
